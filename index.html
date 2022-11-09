@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maybe first project</title>
+    <style type="text/css">
+        body{
+            font-family: 'Roboto', sans-serif;
+            background-color: #fff;
+            margin: 0;
+        }
+        header{
+            height: 55px; 
+            max-width: 1440px;
+            margin: 0 auto;
+
+        }
+        p{margin: 0;
+            padding: 0;}
+        ul li{
+            list-style-type: none; 
+            display: inline-block;
+            font-size: 14px;
+            padding: 0 30px;
+            align-items: center;
+
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            width: 1250px;
+            height: 40px;
+            align-items: center;
+            margin: 0 auto;
+            margin-top: 21px;
+        }
+
+        .button{
+            color: #fff;
+            text-decoration: none;
+            background-color: #6F2CFF;
+            width: 157px;
+            height: 40px;
+            font-size: 14px;
+            border-radius: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .button2{
+            color: #fff;
+            text-decoration: none;
+            background-color: #6F2CFF;
+            width: 187px;
+            height: 45px;
+            font-size: 15px;
+            line-height: 21px;
+            border-radius: 28px;
+            
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main{
+            margin: 0 auto;
+            background-color: #F6BED9;
+            width: 1440px;
+            height: 687px;
+            margin-bottom: 136px;
+        }
+
+        .title{
+            padding-top: 171px;
+            padding-left: 97px;
+        }
+        .subtitle{
+            padding-top: 18px;
+            padding-left: 97px;
+            font-size: 18px;
+            line-height: 30px;
+        }
+        .email{
+            width: 239px;
+            height: 40px;
+            border-radius: 28px;
+            border: 1px solid #6F2CFF;
+            padding-left: 27px;
+            margin-right: 6px;
+
+        }
+        .cta{
+            display: flex;
+            padding-top: 18px;
+        }
+        .img{
+            /*position: absolute;
+            left: 57.5%;
+            right: 6.6%;
+            top: 132.5px;*/
+            margin-left: 910px;
+            margin-top: -425px;
+
+        }
+        .slide{
+            max-width: 1250px;
+            height: 438px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 136px;
+
+        }
+        .text{
+            padding-top: 185px;
+            padding-bottom: 163px;
+            margin-right: 133px;
+        }
+        .card{
+            width: 334px;
+            height: 438px;
+            box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+            border-radius: 0px 0px 7px 7px;
+            
+        }
+        .slide2{
+            max-width: 1250px;
+            height: 349px;
+            margin: 0 auto;
+            margin-bottom: 136px;
+        }
+        .title-slide{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 45px;
+            padding-top: 31px;
+            text-align: center;
+            margin-bottom: 79px;
+        }
+        .info{
+            width: 1200px;
+            margin: 0 auto;
+            margin-bottom: 136px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .content{
+            width: 316px;
+            height: 197px;
+        }
+        img.displayed{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 42px;
+        }
+        p.content-title{
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 23px;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+        p.content-sub{
+            font-size: 15px;
+            line-height: 22px;
+        }
+        footer{
+            max-width: 1440px;
+            height: 156px;
+            background-color: #20003C;
+            margin: 0 auto;
+            
+        }
+        .footer{
+            max-width: 1440px;
+            height: 156px;
+            background-color: #20003C;
+            margin: 0 auto;
+        }
+        .subfooter{
+            max-width: 1310px;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            align-items: center;
+            padding: 63px 0;
+            margin-left: 36px;
+        }
+        .subfooter ul li{
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 21px;
+            margin-right: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="logo.png" alt="Qubit." style="width: 79px; height: 24px;"></img>
+            <ul>
+                <li>Why Qubit?</li>
+                <li>Products</li>
+                <li>Solutions</li>
+                <li>Customers</li>   
+            </ul>
+            <a href="#" class="button">Book a demo</a>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="title">
+                <p><span style="font-weight: 700; font-size: 54px;line-height: 56px;">Make ecommerce</span></p>
+                <p><span style="color: #6F2DFF; font-size: 54px; font-weight: 700;line-height: 56px;">More personal.</span></p>
+            </div>
+            <div class="subtitle">
+                <p>Hundreds of brands use <span style="font-weight: 700;">Qubit CommerceAI</span> to power<br>the next generation of product recommendations,<br> badging and insights to build exceptional customer<br> experiences.</p>
+                <div class="cta">
+                    <input class="email" type="email" name="email" placeholder="Enter your email">
+                    <a href="#" class="button2">Book a demo</a>
+                </div>
+            </div>
+            <div class="img">
+                <img src="IMAGE.png">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="text">
+                <p><span style="font-weight: 700; font-size: 40px;">Grow 2.5x faster than</span></p>
+                <p><span style="font-weight: 700; font-size: 40px;">your competitors.</span></p>
+            </div>
+            <div class="card">
+                <img src="s_3_2.png">
+                <p style="font-size: 26px; line-height: 22px; margin-top: 33px ;" align="center">RIVER ISLAND</p>
+                <p style="color: #6F2CFF; font-size: 18px; line-height: 22px; padding: 27px 56px;" align="center">River Island transforms the customer experience with personalization.</p>
+            </div>
+            <div class="card">
+                <img src="s_3.png">
+                <p style="font-size: 26px; line-height: 22px; margin-top: 33px ;" align="center">RIVER ISLAND</p>
+                <p style="color: #6F2CFF; font-size: 18px; line-height: 22px; padding: 27px 56px;" align="center">River Island transforms the customer experience with personalization.</p>
+            </div>
+        </div>
+        <div class="slide2">
+            <div class="title-slide">
+                <p>Qubit CommerceAI.</p>
+            </div>
+            <div class="info">
+                <div class="content">
+                    <img src="1.png" class="displayed">
+                    <p class="content-title">More insight</p>
+                    <p align="center" class="content-sub">Learn which products drive performance and which don't, through automated insights you can action.</p>
+                </div>
+                <div class="content">
+                    <img src="2.png" class="displayed">
+                    <p class="content-title">More personal</p>
+                    <p align="center" class="content-sub">Qubit CommerceAI generates a model per shopper to make every customer interaction more relevant.</p>
+                </div>
+                <div class="content">
+                    <img src="3.png" class="displayed">
+                    <p class="content-title">More effective</p>
+                    <p align="center" class="content-sub">Qubit fuses data, intent, and design tools to enable your team to create more effective customer experiences.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="subfooter">
+                <ul>
+                    <li>Featured Capabilities</li>
+                    <li>Products</li>
+                    <li>Resources</li>
+                    <li>Company</li>   
+                </ul>
+                <a href="#" class="button">Book a demo</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
